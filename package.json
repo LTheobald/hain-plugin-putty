@@ -1,6 +1,6 @@
 {
   "name": "hain-plugin-putty",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A Hain plugin to launch PuTTY sessions",
   "main": "index.js",
   "scripts": {
@@ -11,12 +11,20 @@
     "url": "git+https://github.com/LTheobald/hain-plugin-putty.git"
   },
   "keywords": [
-    "hain"
+    "hain0",
+    "hain-plugin",
+    "putty"
   ],
   "author": "Lee Theobald <Lee@LTheobald.co.uk>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/LTheobald/hain-plugin-putty/issues"
   },
-  "homepage": "https://github.com/LTheobald/hain-plugin-putty#readme"
+  "homepage": "https://github.com/LTheobald/hain-plugin-putty#readme",
+  "hain": {
+    "prefix": "/ssh",
+    "usage": "/ssh my.remoteserver.com",
+    "redirect": "/ssh ",
+    "icon": "#fa fa-chevron-right"
+  }
 }
