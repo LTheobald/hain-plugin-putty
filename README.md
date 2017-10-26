@@ -8,3 +8,4 @@ Current it expects to find the `putty` command to be in your PATH.
 
 ## TODO
 1. Check for Putty in normal locations if not in PATH.
+2. Tests, code format preferences and all that stuff!
